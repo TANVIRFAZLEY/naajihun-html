@@ -96,6 +96,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
+    color: #666;
 }
 
 ul {
@@ -136,6 +137,10 @@ img {
     background: #2E2751;
     color: #fff;
     box-shadow: 0 10px 10px -8px rgba(0, 0, 0, 0.5);
+}
+
+.section-padding {
+    padding: 80px 0;
 }
 
 /* Headre area */
@@ -295,4 +300,53 @@ img {
 
 .home-hero-slider .home-single-slider.slick-slide.slick-current.slick-active .hero-slider-text a {
     animation: fadeInUp 1.4s both 1.6s;
+}
+
+/* Work process area */
+.work-proccess-area {
+    background: #F4F9FC;
+}
+
+.single-workproccess-area {
+    text-align: center;
+    padding: 30px 15px;
+    -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    border-top: 3px solid transparent;
+    transition: all 0.4s ease;
+}
+
+.single-workproccess-area .icon-head i {
+    color: #f3a712;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    background: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 100%;
+    font-size: 34px;
+    position: relative;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.single-workproccess-area h4 {
+    margin: 15px 0;
+    color: #2E2751;
+    font-size: 20px;
+}
+
+.single-workproccess-area:hover .icon-head i {
+    background: #179E66;
+    color: #fff;
+    border-color: transparent;
+}
+
+.single-workproccess-area:hover {
+    border-top-color: #179E66;
 }
